@@ -51,7 +51,6 @@
 .heroImg{
     width: 35%;
     z-index: 1;
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -99,7 +98,9 @@
     .container {
         flex-direction: column-reverse;
     }
-
+    .heroImg {
+        display: none;
+    }
     .content {
         align-items: center;
     }

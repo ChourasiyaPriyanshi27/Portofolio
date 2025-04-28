@@ -8,6 +8,7 @@
     box-shadow: 0 16px 14px 0 #04152d;
     max-width: 480px;
     border-radius: 10px;
+    min-height: 550px;
 }
 .content {
     padding: 10px;
@@ -15,18 +16,12 @@
 .image {
     margin-bottom: 5px;
     font-weight: 700;
-    height: 230px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
-.contentItem {
-    height: 60px;
-}
-.description {
-    margin-top: 6px;
-    font-size: 15px;
-    font-weight: 300;
-    height: 110px;
+    object-fit: cover; /* Make sure images don't stretch weirdly */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    aspect-ratio: 16/9;
 }
 
 .skills {
@@ -46,7 +41,12 @@
     background: var(--color-dark);
     padding: 2px 22px;
 }
-
+.text {
+  margin-bottom: 10px;
+}
+.description {
+    margin-bottom: 50px;
+}
 .links {
     width: 100%;
     margin-top: 26px;
@@ -62,4 +62,18 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 10x 22px;
+}
+
+@media screen  and (max-width:830px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background: linear-gradient(180deg,#576cbc 0%, #132a53 100%);
+        box-shadow: 0 16px 14px 0 #04152d;
+        max-width: 375px;
+        border-radius: 10px;
+        min-height: 550px;
+    }
+    
 }

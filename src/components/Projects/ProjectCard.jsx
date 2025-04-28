@@ -3,18 +3,17 @@ import styles from '../Projects/ProjectCard.module.css';
 import { getImageUrl } from '../../utils';
 
 const ProjectCard = ({ project: {text, title, description, skills, imageSrc } }) => {
-  console.log(imageSrc,"@@@@@@@@@@@@@@@@@")
   return (
     <div className={styles.container}>
       <img
         src={imageSrc}
         alt="projectImg"
-        className={styles.image} // use className not style
+        className={styles.image}
       />
       <div className={styles.content}>
         <div className={styles.contentItem}>
         <h3 className={styles.title}>{title}</h3>
-        <h3>{text}</h3>
+        <h3 className={styles.text}>{text}</h3>
         </div>
       <p className={styles.description}>
         {description}

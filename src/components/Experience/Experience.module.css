@@ -104,7 +104,10 @@
         align-items: center;
         gap: 34px;
     }
-
+    .experience {
+        font-size: 12px;
+        width: 285px;
+    }
     .skills {
         width: 100%;
         flex-direction: row;
