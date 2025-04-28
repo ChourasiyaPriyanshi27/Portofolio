@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Cooksy",
+      "text" : "Service Marketplace & Payment Platform",
+      "imageSrc": "/assets/skills/cooksy.jpg",
+      "description": "Developed a responsive platform allowing users to buy and sell services like cooking and beauty, with personalized listings and customer reviews. Integrated Google login, Stripe payments, and a real-time chat feature, ensuring full responsiveness with Material UI and CSS.",
+      "skills": ["React js", "Material Ui","Stripe","Ruby on Rails","MySql"]
+    },
+    {
+      "title": "ReplenishMD",
+      "text" : "Inventory & Appointment Management",
+      "imageSrc": "/assets/skills/cooksy.jpg",
+      "description": "Built a unified platform for inventory tracking, low stock alerts, doctor appointment and order management.Designed responsive doctor appointment scheduling with availability and notifications.Ensured secure data handling for inventory and patient records.",
+      "skills": ["React js", "Node js","MongoDB", "Stripe","Material Ui"]
+    },
+    {
+      "title": "My Voyages",
+      "imageSrc": "/assets/skills/travel.jpg",
+      "text" : "Travel Experience Sharing Web App",
+      "description": "Built a web platform for travelers to share journeys and experiences, with profile creation, media posts, and trip details. Developed a responsive, interactive UI using React.js, fostering a community-driven experience for content sharing and connection.",
+      "skills": ["React Native","CSS", "Ruby on Rails","MySql"]
+    },
+    {
+      "title": "FitTrack",
+      "imageSrc": "/assets/skills/fitness.jpg",
+      "text" : "Personal Fitness Tracking Web App",
+      "description": "Developed FitTrack, a personal fitness tracking application that allows users to log workouts, track progress, and set fitness goals.Implemented features such as workout logging, and goal-setting. Integrated third-party APIs to fetch data on exercise routines, nutritional information, and workout tips.",
+      "skills": ["React js", "Node js" , "MongoDB","Material Ui"]
+    }
+  ]
+  

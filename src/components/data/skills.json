@@ -1,0 +1,35 @@
+[
+    {
+        "title" : "HTML",
+        "imageSrc" : "skills/html.png"
+    },
+    {
+        "title" : "CSS",
+        "imageSrc" : "skills/css.png"
+    },
+    {
+        "title" : "Javascript",
+        "imageSrc" : "skills/javascript.png"
+    },
+    {
+        "title" : "Typescript",
+        "imageSrc" : "skills/typescript.png"
+    },
+    {
+        "title" : "React js",
+        "imageSrc" : "skills/react.png"
+    },
+    {
+        "title" : "React Native",
+        "imageSrc" : "skills/atom.png"
+    },
+    {
+        "title" : "Material Ui",
+        "imageSrc" : "skills/folder.png"
+    },
+    {
+        "title" : "Unit Testing",
+        "imageSrc" : "skills/testing.png"
+    }
+    
+]

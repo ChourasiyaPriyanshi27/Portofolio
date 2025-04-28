@@ -1,0 +1,16 @@
+[
+    {
+        "role" : "Solution Engineer",
+        "organisation" : "SriGoRack Technology",
+        "startDate" : "June 2024",
+        "endDate" : "Present",
+        "experience" : ["Experienced in building scalable web apps with React.js, Next.js, Redux, and React Native, focusing on performance, responsive design, and API integration. Proficient in testing, version control, and optimizing workflows with tools like Jest, Git, and Webpack."]
+    },
+    {
+        "role" : "Software Engineer",
+        "organisation" : "Bestpeers Infosystem",
+        "startDate" : "Feb 2023",
+        "endDate" : "Feb 2024",
+        "experience" :[ "Integrated backend services via RESTful APIs and managed state with Redux for seamless data flow and complex logic. Collaborated with teams using JIRA, contributed to code reviews, and optimized performance to ensure high-quality, production-grade applications."]
+    }
+]
