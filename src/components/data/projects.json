@@ -16,7 +16,7 @@
     {
       "title": "My Voyages",
       "imageSrc": "/assets/skills/travel.jpg",
-      "text" : "Travel Experience Sharing Web App",
+      "text" : "Travel Experience Sharing App",
       "description": "My Voyages is a React Native iOS app where users create profiles and share travel stories with text, images, videos, location, and trip details. The app fosters a community of explorers by enabling rich, experience-based storytelling",
       "skills": ["React Native","Material Ui","CSS","MySql", "Ruby on Rails"]
     },
